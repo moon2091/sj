@@ -14,9 +14,15 @@
   },
   "devDependencies": {
     "concurrently": "^10.0.6",
-    "knip": "^6.32.1"
+    "knip": "^6.32.1",
+    "minimatch": "^11.0.4"
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "overrides": {
+    "react-router-dom": "^7.18.5",
+    "react-router": "^7.18.5",
+    "minimatch": "^11.0.4"
+  }
 }
